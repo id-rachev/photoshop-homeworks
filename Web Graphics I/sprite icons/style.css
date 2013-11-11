@@ -1,0 +1,28 @@
+a {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url('sprite.png') no-repeat left top;
+	background-color: gray;
+	border: 5px solid grey;
+	border-radius: 30px;
+}
+#facebook {
+	background-position: -16px 0;
+}#google {
+	background-position: -32px 0;
+}#dribble {
+	background-position: -48px 0;
+}#vimeo {
+	background-position: -64px 0;
+}#tumblr {
+	background-position: -80px 0;
+}
+a:hover {
+	background-color: black;
+	border-color: black;
+}
+
+span {
+	display: none;
+}
